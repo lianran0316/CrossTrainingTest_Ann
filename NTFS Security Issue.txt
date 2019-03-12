@@ -1,0 +1,4 @@
+1. Log on SHACMEPROXYMG01
+2. Start Regedt32.exe and locate registry key "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem"
+3. Select the NtfsDisable8dot3NameCreation entry -> On the Edit menu, type a value of 1 in the Data field.
+4. Click OK and then exit Regedt32.
